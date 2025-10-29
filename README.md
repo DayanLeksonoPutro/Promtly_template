@@ -50,12 +50,7 @@ Returns a specific template by its ID.
 ### Search Templates
 GET api.html?action=search&q={search_term}
 Returns templates matching the search term using fuzzy search.
-
-## Customization
-To add new templates:
-1. Edit [data.json](file:///Users/dayanleksonoputro/Documents/Appnovasi/Promtly_template/data.json) with new template objects
-2. Refresh [index.html](file:///Users/dayanleksonoputro/Documents/Appnovasi/Promtly_template/index.html) in browser
-
+    
 ## Technologies Used
 - [Fuse.js](https://fusejs.io/) for fuzzy search
 - Vanilla JavaScript
@@ -69,7 +64,7 @@ To add new templates:
 5. Your site will be available at [https://dayanleksonoputro.github.io/Promtly_template/](https://dayanleksonoputro.github.io/Promtly_template/)
 
 These changes will allow your Android application to consume your template data through simple HTTP requests:
-- To get all templates: https://yourusername.github.io/Promptly_template/api.html?action=list
-- To get a specific template: https://yourusername.github.io/Promptly_template/api.html?action=get&id=template_1
-- To search templates: https://yourusername.github.io/Promptly_template/api.html?action=search&q=lesson
+- To get all templates: https://dayanleksonoputro.github.io/Promptly_template/api.html?action=list
+- To get a specific template: https://dayanleksonoputro.github.io/Promptly_template/api.html?action=get&id=template_1
+- To search templates: https://dayanleksonoputro.github.io/Promptly_template/api.html?action=search&q=lesson
 The API responses will be in JSON format that your Android app can easily parse. This approach works with GitHub Pages since it's still serving static files, but provides the API-like functionality your Android app needs.
