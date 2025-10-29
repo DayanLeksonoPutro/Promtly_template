@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>JSON Search</title>
+  <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0"></script>
+  <style>
+    body { font-family: sans-serif; padding: 20px; }
+    input { width: 100%; padding: 10px; margin-bottom: 20px; }
+    .item { border-bottom: 1px solid #ddd; padding: 10px 0; }
+    .name { font-weight: bold; }
+  </style>
+</head>
+<body>
+  <h2>Search Template</h2>
+  <input id="search" type="text" placeholder="Cari template...">
+  <div id="results"></div>
+
+  <script>
+    let fuse, data = [];
+
+    async function loadData() {
+      const res = await fetch('data.json');
+      data = await res.json();
+      fuse = new Fuse(data, {
+        keys: ['name', 'description', 'tags'],
+        threshold: 0.3
+      });
+    }
+
+    function render(results) {
+      const container = document.getElementById('results');
+      container.innerHTML = '';
+      results.forEach(r => {
+        const item = r.item || r;
+        container.innerHTML += `
+          <div class="item">
+            <div class="name">${item.name}</div>
+            <div>${item.description}</div>
+            <small>${item.tags}</small>
+          </div>`;
+      });
+    }
+
+    document.getElementById('search').addEventListener('input', e => {
+      const query = e.target.value.trim();
+      if (!query) return render(data);
+      const results = fuse.search(query);
+      render(results);
+    });
+
+    loadData().then(() => render(data));
+  </script>
+</body>
+</html>
