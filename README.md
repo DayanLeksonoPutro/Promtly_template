@@ -7,6 +7,7 @@ A searchable template library for AI prompts with Fuse.js integration.
 - Fast fuzzy search using Fuse.js
 - Responsive design
 - Easy to customize
+- Simple API for mobile applications
 
 ## Templates Included
 The template database includes:
@@ -34,6 +35,22 @@ Templates in [data.json](file:///Users/dayanleksonoputro/Documents/Appnovasi/Pro
 - `temperature`: Creativity level (0.0 to 1.0)
 - `maxTokens`: Maximum response length
 
+## API Endpoints
+Simple API endpoints are available through [api.html](https://dayanleksonoputro.github.io/Promptly_template/api.html):
+
+### List All Templates
+GET [api.html?action=list](https://dayanleksonoputro.github.io/Promtly_template/api.html?action=list)
+
+Returns all templates in JSON format.
+
+### Get Template by ID
+GET api.html?action=get&id={template_id}
+Returns a specific template by its ID.
+
+### Search Templates
+GET api.html?action=search&q={search_term}
+Returns templates matching the search term using fuzzy search.
+
 ## Customization
 To add new templates:
 1. Edit [data.json](file:///Users/dayanleksonoputro/Documents/Appnovasi/Promtly_template/data.json) with new template objects
@@ -50,3 +67,9 @@ To add new templates:
 3. Go to Settings > Pages
 4. Select "Deploy from a branch" and choose your main branch
 5. Your site will be available at [https://dayanleksonoputro.github.io/Promtly_template/](https://dayanleksonoputro.github.io/Promtly_template/)
+
+These changes will allow your Android application to consume your template data through simple HTTP requests:
+- To get all templates: https://yourusername.github.io/Promptly_template/api.html?action=list
+- To get a specific template: https://yourusername.github.io/Promptly_template/api.html?action=get&id=template_1
+- To search templates: https://yourusername.github.io/Promptly_template/api.html?action=search&q=lesson
+The API responses will be in JSON format that your Android app can easily parse. This approach works with GitHub Pages since it's still serving static files, but provides the API-like functionality your Android app needs.
