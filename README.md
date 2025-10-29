@@ -49,4 +49,4 @@ To add new templates:
 2. Push these files to the repository
 3. Go to Settings > Pages
 4. Select "Deploy from a branch" and choose your main branch
-5. Your site will be available at `https://[username].github.io/[repository-name]/`
+5. Your site will be available at `https://dayanleksonoputro.github.io/Promtly_template/`
