@@ -10,13 +10,15 @@ A searchable template library for AI prompts with Fuse.js integration.
 - Simple API for mobile applications
 
 ## Templates Included
-The template database includes:
+The template database includes templates across various domains:
 - Educational tools (Lesson Plan Generator)
 - Developer tools (Code Explainer)
 - Marketing tools (Product Description Writer)
-- Midwifery resources (Communication, Pregnancy Care, Documentation, Entrepreneurship)
+- Healthcare and Midwifery resources
 - Anatomy and Physiology guides
 - Nutrition and Diet information
+- Job search and career guidance (including Indonesia-specific resources)
+- Academic writing and research tools
 
 ## Usage
 1. Open [index.html](file:///Users/dayanleksonoputro/Documents/Appnovasi/Promtly_template/index.html) in a web browser
@@ -25,7 +27,7 @@ The template database includes:
 
 ## Data Structure
 Templates in [data.json](file:///Users/dayanleksonoputro/Documents/Appnovasi/Promtly_template/data.json) include:
-- `id`: Unique identifier
+- `id`: Unique 4-digit identifier (e.g., "0001")
 - `icon`: Material icon name
 - `name`: Template name
 - `description`: Brief description
@@ -36,19 +38,16 @@ Templates in [data.json](file:///Users/dayanleksonoputro/Documents/Appnovasi/Pro
 - `maxTokens`: Maximum response length
 
 ## API Endpoints
-Simple API endpoints are available through [api.html](https://dayanleksonoputro.github.io/Promptly_template/api.html):
+Simple API endpoints are available through [index.html](file:///Users/dayanleksonoputro/Documents/Appnovasi/Promtly_template/index.html):
 
 ### List All Templates
-GET [api.html?action=list](https://dayanleksonoputro.github.io/Promtly_template/api.html?action=list)
+GET [index.html?api=true](file:///Users/dayanleksonoputro/Documents/Appnovasi/Promtly_template/index.html?api=true)
 
 Returns all templates in JSON format.
 
-### Get Template by ID
-GET api.html?action=get&id={template_id}
-Returns a specific template by its ID.
-
 ### Search Templates
-GET api.html?action=search&q={search_term}
+GET [index.html?api=true&q={search_term}](file:///Users/dayanleksonoputro/Documents/Appnovasi/Promtly_template/index.html?api=true&q={search_term})
+
 Returns templates matching the search term using fuzzy search.
 
 ## Technologies Used
@@ -61,10 +60,10 @@ Returns templates matching the search term using fuzzy search.
 2. Push these files to the repository
 3. Go to Settings > Pages
 4. Select "Deploy from a branch" and choose your main branch
-5. Your site will be available at [https://dayanleksonoputro.github.io/Promtly_template/](https://dayanleksonoputro.github.io/Promtly_template/)
+5. Your site will be available at [https://yourusername.github.io/your-repo-name/](https://yourusername.github.io/your-repo-name/)
 
 These changes will allow your Android application to consume your template data through simple HTTP requests:
-- To get all templates: https://dayanleksonoputro.github.io/Promtly_template/api.html?action=list
-- To get a specific template: https://dayanleksonoputro.github.io/Promtly_template/api.html?action=get&id=template_1
-- To search templates: https://dayanleksonoputro.github.io/Promtly_template/api.html?action=search&q=lesson
+- To get all templates: https://yourusername.github.io/your-repo-name/index.html?api=true
+- To search templates: https://yourusername.github.io/your-repo-name/index.html?api=true&q=lesson
+
 The API responses will be in JSON format that your Android app can easily parse. This approach works with GitHub Pages since it's still serving static files, but provides the API-like functionality your Android app needs.
