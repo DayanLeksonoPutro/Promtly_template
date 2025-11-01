@@ -1,6 +1,6 @@
 [
   {
-    "id": "template_1",
+    "id": "0001",
     "icon": "school",
     "name": "Lesson Plan Generator",
     "description": "Create detailed lesson plans for various subjects and grade levels.",
@@ -11,7 +11,7 @@
     "maxTokens": 1000
   },
   {
-    "id": "template_2",
+    "id": "0002",
     "icon": "code",
     "name": "Code Explainer",
     "description": "Paste code snippets and get a clear, simple explanation of what it does.",
@@ -22,7 +22,7 @@
     "maxTokens": 800
   },
   {
-    "id": "template_3",
+    "id": "0003",
     "icon": "shopping_cart",
     "name": "Product Description Writer",
     "description": "Generate compelling product descriptions for e-commerce listings.",
@@ -33,7 +33,7 @@
     "maxTokens": 500
   },
   {
-    "id": "template_4",
+    "id": "0004",
     "icon": "medical_services",
     "name": "Komunikasi Efektif dalam Praktik Kebidanan",
     "description": "Panduan komunikasi efektif untuk praktik kebidanan dengan pasien dan tim kesehatan.",
@@ -44,7 +44,7 @@
     "maxTokens": 900
   },
   {
-    "id": "template_5",
+    "id": "0005",
     "icon": "pregnant_woman",
     "name": "Asuhan Kehamilan",
     "description": "Panduan komprehensif untuk manajemen asuhan kehamilan ibu hamil.",
@@ -55,7 +55,7 @@
     "maxTokens": 1200
   },
   {
-    "id": "template_6",
+    "id": "0006",
     "icon": "description",
     "name": "Dokumentasi Kebidanan",
     "description": "Praktik terbaik untuk dokumentasi dalam praktik kebidanan dan persyaratan hukum.",
@@ -66,7 +66,7 @@
     "maxTokens": 800
   },
   {
-    "id": "template_7",
+    "id": "0007",
     "icon": "business",
     "name": "Kewirausahaan dalam Kebidanan",
     "description": "Menjelajahi peluang bisnis dan kewirausahaan di bidang kebidanan.",
@@ -77,7 +77,7 @@
     "maxTokens": 1000
   },
   {
-    "id": "template_8",
+    "id": "0008",
     "icon": "body_system",
     "name": "Anatomi dan Fisiologi",
     "description": "Pengetahuan dasar anatomi dan fisiologi untuk mahasiswa dan praktisi kebidanan.",
@@ -88,7 +88,7 @@
     "maxTokens": 1500
   },
   {
-    "id": "template_9",
+    "id": "0009",
     "icon": "fastfood",
     "name": "Resep Makanan untuk Pasien Penyakit Tertentu",
     "description": "Resep bergizi yang disesuaikan untuk pasien dengan kondisi medis tertentu.",
@@ -99,7 +99,7 @@
     "maxTokens": 1000
   },
   {
-    "id": "template_10",
+    "id": "0010",
     "icon": "nutrition",
     "name": "Kandungan Gizi Makanan",
     "description": "Informasi gizi terperinci dan kandungan kalori dari makanan dan minuman.",
@@ -110,7 +110,7 @@
     "maxTokens": 800
   },
   {
-    "id": "template_11",
+    "id": "0011",
     "icon": "health_and_safety",
     "name": "Manajemen Kesehatan Ibu dan Anak",
     "description": "Panduan komprehensif untuk manajemen kesehatan ibu dan anak di berbagai tahap kehidupan.",
@@ -121,7 +121,7 @@
     "maxTokens": 1200
   },
   {
-    "id": "template_12",
+    "id": "0012",
     "icon": "psychology",
     "name": "Kesehatan Mental Ibu Hamil",
     "description": "Strategi untuk mengelola dan mendukung kesehatan mental ibu hamil.",
@@ -132,7 +132,7 @@
     "maxTokens": 1000
   },
   {
-    "id": "template_13",
+    "id": "0013",
     "icon": "child_care",
     "name": "Perawatan Bayi Baru Lahir",
     "description": "Panduan lengkap tentang perawatan bayi baru lahir, termasuk pemberian ASI dan pemantauan tumbuh kembang.",
@@ -143,7 +143,7 @@
     "maxTokens": 1000
   },
   {
-    "id": "template_14",
+    "id": "0014",
     "icon": "school",
     "name": "Pelatihan Keterampilan Kebidanan",
     "description": "Panduan praktis untuk pelatihan keterampilan kebidanan yang efektif bagi mahasiswa dan tenaga medis.",
@@ -154,7 +154,7 @@
     "maxTokens": 1000
   },
   {
-    "id": "template_15",
+    "id": "0015",
     "icon": "medication",
     "name": "Manajemen Obat dalam Kehamilan",
     "description": "Panduan penggunaan obat yang aman dan efektif selama kehamilan.",
@@ -164,8 +164,8 @@
     "temperature": 0.5,
     "maxTokens": 800
   },
-{
-    "id": "template_16",
+  {
+    "id": "0016",
     "icon": "nutrition",
     "name": "Perhitungan Kandungan Gizi Makanan",
     "description": "Hitung kandungan gizi dari makanan atau minuman berdasarkan bahan dan porsi yang diberikan.",
@@ -176,7 +176,7 @@
     "maxTokens": 1000
   },
   {
-    "id": "template_17",
+    "id": "0017",
     "icon": "book",
     "name": "Panduan Gizi Klinis",
     "description": "Buat panduan gizi klinis untuk kondisi medis tertentu.",
@@ -187,7 +187,7 @@
     "maxTokens": 1200
   },
   {
-    "id": "template_18",
+    "id": "0018",
     "icon": "stethoscope",
     "name": "Rencana Diet untuk Pasien",
     "description": "Rancang rencana diet yang disesuaikan dengan kondisi medis pasien.",
@@ -198,7 +198,7 @@
     "maxTokens": 1000
   },
   {
-    "id": "template_19",
+    "id": "0019",
     "icon": "health",
     "name": "Evaluasi Status Gizi",
     "description": "Lakukan evaluasi status gizi individu berdasarkan data yang diberikan.",
@@ -209,7 +209,7 @@
     "maxTokens": 1200
   },
   {
-    "id": "template_20",
+    "id": "0020",
     "icon": "meal",
     "name": "Desain Menu Gizi Seimbang",
     "description": "Desain menu gizi seimbang sesuai dengan kebutuhan kelompok tertentu.",
@@ -220,7 +220,7 @@
     "maxTokens": 1000
   },
   {
-    "id": "template_21",
+    "id": "0021",
     "icon": "research",
     "name": "Analisis Literatur Gizi",
     "description": "Lakukan analisis literatur terkait topik gizi yang sedang dipelajari.",
@@ -230,8 +230,8 @@
     "temperature": 0.6,
     "maxTokens": 1200
   },
-{
-    "id": "template_22",
+  {
+    "id": "0022",
     "icon": "book",
     "name": "Artikel Analysis & Essay Writing",
     "description": "Menganalisis artikel akademik, mencari kesimpulan, dan menulis esai berdasarkan analisis tersebut.",
@@ -242,7 +242,7 @@
     "maxTokens": 1200
   },
   {
-    "id": "template_23",
+    "id": "0023",
     "icon": "search",
     "name": "Critical Reading and Analysis",
     "description": "Melakukan pembacaan kritis dan analisis mendalam terhadap artikel atau teks akademik.",
@@ -253,7 +253,7 @@
     "maxTokens": 1000
   },
   {
-    "id": "template_24",
+    "id": "0024",
     "icon": "lightbulb",
     "name": "Problem Solving & Conclusion",
     "description": "Menganalisis masalah yang dihadapi dalam teks, mencari solusi, dan menarik kesimpulan yang relevan.",
@@ -264,7 +264,7 @@
     "maxTokens": 1200
   },
   {
-    "id": "template_25",
+    "id": "0025",
     "icon": "write",
     "name": "Essay Construction & Argumentation",
     "description": "Membangun esai yang solid berdasarkan analisis teks, dengan fokus pada argumen yang logis dan koheren.",
@@ -275,7 +275,7 @@
     "maxTokens": 1200
   },
   {
-    "id": "template_26",
+    "id": "0026",
     "icon": "notebook",
     "name": "Research Article Synthesis",
     "description": "Sintesis berbagai artikel untuk mengembangkan pemahaman dan mengambil kesimpulan yang lebih luas.",
@@ -285,8 +285,8 @@
     "temperature": 0.6,
     "maxTokens": 1500
   },
-{
-    "id": "template_27",
+  {
+    "id": "0027",
     "icon": "globe",
     "name": "Cultural Adaptation in Job Search",
     "description": "Provide strategies for adapting a job search to the cultural context of a specific country.",
@@ -297,7 +297,7 @@
     "maxTokens": 1000
   },
   {
-    "id": "template_28",
+    "id": "0028",
     "icon": "work",
     "name": "Industry-Specific Job Search Tips",
     "description": "Provide job search strategies tailored to a specific industry in a particular country.",
@@ -308,7 +308,7 @@
     "maxTokens": 1000
   },
   {
-    "id": "template_29",
+    "id": "0029",
     "icon": "language",
     "name": "Language Proficiency and Job Search",
     "description": "Advise on how language proficiency influences the job search in a given country.",
@@ -319,7 +319,7 @@
     "maxTokens": 1000
   },
   {
-    "id": "template_30",
+    "id": "0030",
     "icon": "network",
     "name": "Global Networking Strategies",
     "description": "Provide networking strategies that work across multiple countries and cultures.",
@@ -330,7 +330,7 @@
     "maxTokens": 1200
   },
   {
-    "id": "template_31",
+    "id": "0031",
     "icon": "salary",
     "name": "Salary Expectations by Country",
     "description": "Provide insights into salary expectations for a specific profession in different countries.",
@@ -341,7 +341,7 @@
     "maxTokens": 1000
   },
   {
-    "id": "template_32",
+    "id": "0032",
     "icon": "diversity",
     "name": "Diversity and Inclusion in Job Search",
     "description": "Discuss how diversity and inclusion efforts shape job opportunities in different countries.",
@@ -351,8 +351,8 @@
     "temperature": 0.6,
     "maxTokens": 1000
   },
-{
-    "id": "template_33",
+  {
+    "id": "0033",
     "icon": "indonesia",
     "name": "Strategi Pencarian Kerja di Indonesia",
     "description": "Berikan strategi pencarian kerja yang disesuaikan dengan pasar kerja dan budaya di Indonesia.",
@@ -363,7 +363,7 @@
     "maxTokens": 1000
   },
   {
-    "id": "template_34",
+    "id": "0034",
     "icon": "resume",
     "name": "Penulisan Resume untuk Pasar Kerja Indonesia",
     "description": "Panduan untuk menulis resume yang sesuai dengan ekspektasi di Indonesia.",
@@ -374,7 +374,7 @@
     "maxTokens": 1000
   },
   {
-    "id": "template_35",
+    "id": "0035",
     "icon": "networking",
     "name": "Networking di Indonesia",
     "description": "Berikan strategi membangun jaringan profesional di pasar kerja Indonesia.",
@@ -385,7 +385,7 @@
     "maxTokens": 1000
   },
   {
-    "id": "template_36",
+    "id": "0036",
     "icon": "workplace",
     "name": "Memahami Budaya Kerja di Indonesia",
     "description": "Berikan wawasan tentang budaya kerja di Indonesia dan bagaimana pencari kerja dapat menyesuaikan diri.",
@@ -396,7 +396,7 @@
     "maxTokens": 1000
   },
   {
-    "id": "template_37",
+    "id": "0037",
     "icon": "salary",
     "name": "Ekspektasi Gaji di Indonesia",
     "description": "Berikan wawasan mengenai ekspektasi gaji untuk berbagai peran di Indonesia.",
@@ -407,7 +407,7 @@
     "maxTokens": 1000
   },
   {
-    "id": "template_38",
+    "id": "0038",
     "icon": "diversity",
     "name": "Keberagaman dan Inklusi di Tempat Kerja Indonesia",
     "description": "Diskusikan tingkat keberagaman dan inklusi di tempat kerja Indonesia serta cara pencari kerja dapat menilai hal ini.",
@@ -417,8 +417,8 @@
     "temperature": 0.7,
     "maxTokens": 1000
   },
-{
-    "id": "template_39",
+  {
+    "id": "0039",
     "icon": "job_search",
     "name": "Persiapan Lamaran Kerja ala Vina Muliana",
     "description": "Berikan panduan lengkap tentang persiapan melamar kerja berdasarkan ilmu yang diajarkan oleh influencer Vina Muliana.",
@@ -429,7 +429,7 @@
     "maxTokens": 1000
   },
   {
-    "id": "template_40",
+    "id": "0040",
     "icon": "interview",
     "name": "Persiapan Wawancara Kerja ala Vina Muliana",
     "description": "Berikan strategi persiapan wawancara kerja sesuai dengan ajaran Vina Muliana untuk meningkatkan peluang diterima.",
@@ -440,7 +440,7 @@
     "maxTokens": 1000
   },
   {
-    "id": "template_41",
+    "id": "0041",
     "icon": "confidence",
     "name": "Membangun Kepercayaan Diri untuk Melamar Kerja",
     "description": "Berikan tips untuk membangun rasa percaya diri saat melamar pekerjaan berdasarkan ajaran Vina Muliana.",
@@ -451,7 +451,7 @@
     "maxTokens": 1000
   },
   {
-    "id": "template_42",
+    "id": "0042",
     "icon": "networking",
     "name": "Networking untuk Pencari Kerja ala Vina Muliana",
     "description": "Berikan strategi membangun jaringan untuk pencari kerja sesuai dengan ilmu yang diajarkan oleh Vina Muliana.",
@@ -462,7 +462,7 @@
     "maxTokens": 1000
   },
   {
-    "id": "template_43",
+    "id": "0043",
     "icon": "personal_branding",
     "name": "Membangun Personal Branding untuk Pencari Kerja",
     "description": "Berikan panduan membangun personal branding yang kuat untuk pencari kerja berdasarkan ilmu Vina Muliana.",

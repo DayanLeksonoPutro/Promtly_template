@@ -1,4 +1,3 @@
-NEW_FILE_CODE
 <!DOCTYPE html>
 <html>
 <head>
@@ -58,7 +57,17 @@ NEW_FILE_CODE
     }
     
     function getDataById(id) {
-      const item = data.find(d => d.id === id);
+      // First try to find by exact ID match (for our new 4-digit IDs)
+      let item = data.find(d => d.id === id);
+      
+      // If not found, try to search by ID in the query (for backward compatibility)
+      if (!item && id) {
+        const results = fuse.search(id);
+        if (results.length > 0) {
+          item = results[0].item;
+        }
+      }
+      
       if (item) {
         sendResponse(item);
       } else {
