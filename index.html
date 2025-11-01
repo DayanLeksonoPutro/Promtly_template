@@ -42,13 +42,28 @@
       render(data);
     }
 
+    // Function to search by ID
+    function searchById(id) {
+      // Ensure ID is a string and pad with zeros if needed
+      const paddedId = String(id).padStart(4, '0');
+      return data.find(item => item.id === paddedId);
+    }
+
     function handleApiRequest(query) {
       // Hide UI elements for API response
       document.body.innerHTML = '';
       
       let results = data;
       if (query) {
-        results = fuse.search(query).map(r => r.item);
+        // First try to find by ID
+        const idResult = searchById(query);
+        if (idResult) {
+          // If found by ID, return just that item
+          results = [idResult];
+        } else {
+          // Otherwise, do regular fuzzy search
+          results = fuse.search(query).map(r => r.item);
+        }
       }
       
       // Return JSON response
@@ -71,8 +86,16 @@
     document.getElementById('search').addEventListener('input', e => {
       const query = e.target.value.trim();
       if (!query) return render(data);
-      const results = fuse.search(query);
-      render(results.map(r => r.item));
+      
+      // First try to find by ID
+      const idResult = searchById(query);
+      if (idResult) {
+        render([idResult]);
+      } else {
+        // Otherwise, do regular fuzzy search
+        const results = fuse.search(query);
+        render(results.map(r => r.item));
+      }
     });
 
     loadData();
